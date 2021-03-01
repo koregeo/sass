@@ -10,10 +10,18 @@ header {
 }
 
 header button {
-  background: #1417aa;
+  background: #797be4;
+}
+
+header button:hover {
+  background-color: red;
+}
+
+header button::after {
+  content: " Helloo";
 }
 
 .contact button {
-  background: #1417aa;
+  background: #797be4;
 }
 /*# sourceMappingURL=style.css.map */

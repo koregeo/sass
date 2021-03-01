@@ -1,4 +1,4 @@
-$primeryBtn: rgb(20, 23, 170); // <-- variable
+$primeryBtn: rgb(121, 123, 228); // <-- variable
 $textColor: rgb(163, 39, 39);
 
 
@@ -8,7 +8,12 @@ header {
     justify-content: center;
     color: $textColor;
 
-    button { background: $primeryBtn;} // <-- nested element
+    button { // <-- nested element
+        background: $primeryBtn;
+        &:hover {background-color: red;} // <-- pseudo element
+        &::after { content: " Helloo";} // <-- pseudo element
+    } 
+    
 }
 
 
