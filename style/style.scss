@@ -1,3 +1,9 @@
+$primeryBtn : rgb(114, 32, 103); // <-- variable
+
 header {
     background-color: lightblue;
+    display: flex;
+    justify-content: center;
 }
+
+header button { background: $primeryBtn;}
