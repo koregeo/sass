@@ -1,4 +1,7 @@
-@import "./header"; // <-- import scss  file
-@import "./variables.scss";  // <-- import variables
+
+@import "./variables";
+@import "./header";
+
+
 
 .contact button {background: $primeryBtn}
