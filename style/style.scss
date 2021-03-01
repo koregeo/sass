@@ -1,8 +1,4 @@
-$primeryBtn: rgb(121, 123, 228); // <-- variable
-$textColor: rgb(163, 39, 39);
-
-
 @import "./header"; // <-- import scss  file
-
+@import "./variables.scss";  // <-- import variables
 
 .contact button {background: $primeryBtn}
