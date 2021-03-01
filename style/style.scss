@@ -1,9 +1,15 @@
-$primeryBtn : rgb(114, 32, 103); // <-- variable
+$primeryBtn: rgb(20, 23, 170); // <-- variable
+$textColor: rgb(163, 39, 39);
+
 
 header {
     background-color: lightblue;
     display: flex;
     justify-content: center;
+    color: $textColor;
+
+    button { background: $primeryBtn;} // <-- nested element
 }
 
-header button { background: $primeryBtn;}
+
+.contact button {background: $primeryBtn}
