@@ -5,5 +5,5 @@
 
 
 .contact  {
-    @include flexCentre(row, green) // <-- use mixin with parameters
+@extend header; // <-- header inheritance
 }

@@ -1,20 +1,8 @@
-@mixin flexCentre($direction, $color){ //<-- mixin with parameters
- display: flex;
-    justify-content: center; 
-    align-items: center;    
-    height: 100vh; 
-    flex-direction: $direction;
-    background-color: $color;
-    
-}
-
-
-
 header {
-    @include flexCentre(column, red);// <-- use mixin with parameters
-   
+    
+   height: 100vh;
     color: $textColor;
-
+    background: lightblue;
     button { // <-- nested element
         background: $primeryBtn;
         &:hover {background-color: rgb(255, 250, 250);} // <-- pseudo element
