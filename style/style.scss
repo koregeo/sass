@@ -4,4 +4,6 @@
 
 
 
-.contact button {background: $primeryBtn}
+.contact  {
+    @include flexCentre() // <-- use mixin
+}

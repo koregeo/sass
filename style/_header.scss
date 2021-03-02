@@ -1,15 +1,22 @@
-header {
-   height: 100vh;
-    display: flex;
+@mixin flexCentre { //<-- mixin
+ display: flex;
     justify-content: center; 
     align-items: center;    
+    height: 100vh; 
+    
+}
+
+
+
+header {
+    @include flexCentre();// <-- use mixin
     background-color: lightblue;  
     color: $textColor;
 
     button { // <-- nested element
         background: $primeryBtn;
         &:hover {background-color: rgb(255, 250, 250);} // <-- pseudo element
-        &::after { content: " asd";} // <-- pseudo element
+        &::after { content: " Helloo";} // <-- pseudo element
     } 
     
 }
