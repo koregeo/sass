@@ -9,7 +9,11 @@ header {
       -ms-flex-align: center;
           align-items: center;
   height: 100vh;
-  background-color: lightblue;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: red;
   color: #a32727;
 }
 
@@ -36,5 +40,10 @@ header button::after {
       -ms-flex-align: center;
           align-items: center;
   height: 100vh;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: green;
 }
 /*# sourceMappingURL=style.css.map */
