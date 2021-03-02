@@ -6,4 +6,5 @@
 
 .contact  {
 @extend header; // <-- header inheritance
+width: 100% - 20%; // math operator
 }

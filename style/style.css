@@ -15,4 +15,8 @@ header button:hover, .contact button:hover {
 header button::after, .contact button::after {
   content: " Helloo";
 }
+
+.contact {
+  width: 80%;
+}
 /*# sourceMappingURL=style.css.map */
